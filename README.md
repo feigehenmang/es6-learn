@@ -34,3 +34,9 @@ es6-learn
         - 暂时性死区: 只要块级作用域内存在const 和 let 以及 class, 所声明的常量和变量就绑定此区域, 不再受外部影响
 6. 
 
+---
+```sh
+git publish -- -m 'commit content' # 提交代码
+```
+
+[npm scripts的技巧](https://baijiahao.baidu.com/s?id=1621434786186441040&wfr=spider&for=pc)
