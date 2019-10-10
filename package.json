@@ -1,0 +1,20 @@
+{
+  "name": "es6-learn",
+  "version": "1.0.0",
+  "description": "es6-learn",
+  "main": "index.js",
+  "scripts": {
+    "start": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feigehenmang/es6-learn.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/feigehenmang/es6-learn/issues"
+  },
+  "homepage": "https://github.com/feigehenmang/es6-learn#readme"
+}
