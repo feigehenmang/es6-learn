@@ -1,0 +1,528 @@
+  npm install --save core-js@2    npm install --save core-js@3
+  yarn add core-js@2              yarn add core-js@3
+
+Successfully compiled 1 file with Babel.
+Done in 1.02s.
+
+D:\code\es6-learn>yarn add core-js@3
+yarn add v1.12.3
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info fsevents@1.2.9: The platform "win32" is incompatible with this module.
+info "fsevents@1.2.9" is an optional dependency and failed compatibility check. Excluding it from installation.
+[3/4] Linking dependencies...
+[4/4] Building fresh packages...
+success Saved lockfile.
+success Saved 1 new dependency.
+info Direct dependencies
+└─ core-js@3.2.1
+info All dependencies
+└─ core-js@3.2.1
+$ git add .
+'git' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/add for documentation about this command.
+
+D:\code\es6-learn>yarn babel
+yarn run v1.12.3
+$ npx babel src --out-dir lib
+
+WARNING: We noticed you're using the `useBuiltIns` option without declaring a core-js version. Currently, we assume version 2.x when no version is passed. Since this default version will likely change in future versions of Babel, we recommend explicitly setting the core-js
+version you are using via the `corejs` option.
+
+You should also be sure that the version you pass to the `corejs` option matches the version specified in your `package.json`'s `dependencies` section. If it doesn't, you need to run one of the following commands:
+
+  npm install --save core-js@2    npm install --save core-js@3
+  yarn add core-js@2              yarn add core-js@3
+
+Successfully compiled 1 file with Babel.
+Done in 1.04s.
+
+D:\code\es6-learn>yarn babel
+yarn run v1.12.3
+$ npx babel src --out-dir lib
+Successfully compiled 1 file with Babel.
+Done in 1.06s.
+
+D:\code\es6-learn>yarn babel
+yarn run v1.12.3
+$ npx babel src --out-dir lib
+Successfully compiled 1 file with Babel.
+Done in 1.92s.
+
+D:\code\es6-learn>yarn babel
+yarn run v1.12.3
+$ npx babel src --out-dir lib
+{
+  version: '7.6.4',
+  cache: [Function: cacheFn] {
+    forever: [Function],
+    never: [Function],
+    using: [Function],
+    invalidate: [Function]
+  },
+  env: [Function: env],
+  async: [Function: async],
+  caller: [Function: caller],
+  assertVersion: [Function: assertVersion],
+  tokTypes: undefined
+}
+
+WARNING: We noticed you're using the `useBuiltIns` option without declaring a core-js version. Currently, we assume version 2.x when no version is passed. Since this default version will likely change in future versions of Babel, we recommend explicitly setting the core-js
+version you are using via the `corejs` option.
+
+You should also be sure that the version you pass to the `corejs` option matches the version specified in your `package.json`'s `dependencies` section. If it doesn't, you need to run one of the following commands:
+
+  npm install --save core-js@2    npm install --save core-js@3
+  yarn add core-js@2              yarn add core-js@3
+
+Successfully compiled 1 file with Babel.
+Done in 1.12s.
+
+D:\code\es6-learn>yarn babel
+yarn run v1.12.3
+$ npx babel src --out-dir lib
+{
+  version: '7.6.4',
+  cache: [Function: cacheFn] {
+    forever: [Function],
+    never: [Function],
+    using: [Function],
+    invalidate: [Function]
+  },
+  env: [Function: env],
+  async: [Function: async],
+  caller: [Function: caller],
+  assertVersion: [Function: assertVersion],
+  tokTypes: undefined
+}
+
+WARNING: We noticed you're using the `useBuiltIns` option without declaring a core-js version. Currently, we assume version 2.x when no version is passed. Since this default version will likely change in future versions of Babel, we recommend explicitly setting the core-js
+version you are using via the `corejs` option.
+
+You should also be sure that the version you pass to the `corejs` option matches the version specified in your `package.json`'s `dependencies` section. If it doesn't, you need to run one of the following commands:
+
+  npm install --save core-js@2    npm install --save core-js@3
+  yarn add core-js@2              yarn add core-js@3
+
+Successfully compiled 1 file with Babel.
+Done in 1.12s.
+
+D:\code\es6-learn>yarn babel
+yarn run v1.12.3
+$ npx babel src --out-dir lib
+process {
+  version: 'v12.9.1',
+  versions: {
+    node: '12.9.1',
+    v8: '7.6.303.29-node.15',
+    uv: '1.31.0',
+    zlib: '1.2.11',
+    brotli: '1.0.7',
+    ares: '1.15.0',
+    modules: '72',
+    nghttp2: '1.39.2',
+    napi: '4',
+    llhttp: '1.1.4',
+    http_parser: '2.8.0',
+    openssl: '1.1.1c',
+    cldr: '35.1',
+    icu: '64.2',
+    tz: '2019a',
+    unicode: '12.1'
+  },
+  arch: 'x64',
+  platform: 'win32',
+  release: {
+    name: 'node',
+    sourceUrl: 'https://nodejs.org/download/release/v12.9.1/node-v12.9.1.tar.gz',
+    headersUrl: 'https://nodejs.org/download/release/v12.9.1/node-v12.9.1-headers.tar.gz',
+    libUrl: 'https://nodejs.org/download/release/v12.9.1/win-x64/node.lib'
+  },
+  _rawDebug: [Function: _rawDebug],
+  moduleLoadList: [
+    'Internal Binding native_module',
+    'Internal Binding errors',
+    'Internal Binding buffer',
+    'NativeModule internal/errors',
+    'Internal Binding config',
+    'Internal Binding constants',
+    'Internal Binding util',
+    'Internal Binding types',
+    'NativeModule internal/util',
+    'NativeModule internal/util/types',
+    'NativeModule internal/assert',
+    'NativeModule internal/util/inspect',
+    'NativeModule events',
+    'NativeModule internal/validators',
+    'NativeModule internal/buffer',
+    'Internal Binding icu',
+    'NativeModule buffer',
+    'NativeModule internal/process/per_thread',
+    'NativeModule internal/process/main_thread_only',
+    'Internal Binding process_methods',
+    'Internal Binding credentials',
+    'NativeModule internal/process/stdio',
+    'Internal Binding async_wrap',
+    'Internal Binding task_queue',
+    'NativeModule internal/async_hooks',
+    'NativeModule internal/process/promises',
+    'NativeModule internal/fixed_queue',
+    'NativeModule internal/process/task_queues',
+    'Internal Binding trace_events',
+    'NativeModule internal/console/constructor',
+    'NativeModule internal/console/global',
+    'NativeModule internal/util/inspector',
+    'Internal Binding inspector',
+    'NativeModule internal/querystring',
+    'NativeModule internal/constants',
+    'NativeModule path',
+    'Internal Binding url',
+    'NativeModule internal/url',
+    'NativeModule internal/encoding',
+    'Internal Binding timers',
+    'NativeModule internal/linkedlist',
+    'NativeModule internal/priority_queue',
+    'NativeModule internal/util/debuglog',
+    'NativeModule internal/timers',
+    'NativeModule timers',
+    'NativeModule internal/process/execution',
+    'NativeModule internal/process/warning',
+    'Internal Binding options',
+    'NativeModule internal/options',
+    'NativeModule internal/bootstrap/pre_execution',
+    'NativeModule internal/inspector_async_hook',
+    'Internal Binding contextify',
+    'NativeModule vm',
+    'Internal Binding fs',
+    'NativeModule internal/fs/utils',
+    'NativeModule fs',
+    'NativeModule internal/idna',
+    'NativeModule url',
+    'NativeModule internal/modules/cjs/helpers',
+    'NativeModule internal/modules/cjs/loader',
+    'Internal Binding module_wrap',
+    'Internal Binding pipe_wrap',
+    'NativeModule internal/streams/pipeline',
+    'NativeModule internal/streams/end-of-stream',
+    'NativeModule internal/streams/legacy',
+    'NativeModule internal/streams/buffer_list',
+    'NativeModule internal/streams/destroy',
+    'NativeModule internal/streams/state',
+    'NativeModule _stream_readable',
+    'NativeModule _stream_writable',
+    'NativeModule _stream_duplex',
+    'NativeModule _stream_transform',
+    'NativeModule _stream_passthrough',
+    'NativeModule stream',
+    'NativeModule internal/net',
+    'Internal Binding uv',
+    'Internal Binding stream_wrap',
+    'Internal Binding tcp_wrap',
+    'NativeModule internal/stream_base_commons',
+    'Internal Binding dtrace',
+    'NativeModule internal/dtrace',
+    'NativeModule net',
+    'Internal Binding udp_wrap',
+    'NativeModule internal/dgram',
+    'NativeModule dgram',
+    'Internal Binding process_wrap',
+    'Internal Binding tty_wrap',
+    'NativeModule internal/socket_list',
+    'Internal Binding spawn_sync',
+    'NativeModule internal/child_process',
+    'NativeModule child_process',
+    'NativeModule util',
+    'NativeModule module',
+    'NativeModule internal/tty',
+    'NativeModule tty',
+    'Internal Binding os',
+    'NativeModule os',
+    'Internal Binding signal_wrap',
+    'NativeModule internal/assert/assertion_error',
+    'NativeModule assert'
+  ],
+  binding: [Function: binding],
+  _linkedBinding: [Function: _linkedBinding],
+  _events: [Object: null prototype] {
+    warning: [Function: onWarning],
+    newListener: [Function: startListeningIfSignal],
+    removeListener: [Function: stopListeningIfSignal],
+    SIGWINCH: [ [Function], [Function] ],
+    uncaughtException: [Function]
+  },
+  _eventsCount: 5,
+  _maxListeners: undefined,
+  domain: null,
+  _exiting: false,
+  config: {
+    target_defaults: {
+      cflags: [],
+      default_configuration: 'Release',
+      defines: [],
+      include_dirs: [],
+      libraries: []
+    },
+    variables: {
+      asan: 0,
+      build_v8_with_gn: false,
+      coverage: false,
+      debug_nghttp2: false,
+      enable_lto: false,
+      enable_pgo_generate: false,
+      enable_pgo_use: false,
+      force_dynamic_crt: 0,
+      host_arch: 'x64',
+      icu_data_in: '..\\..\\deps/icu-small\\source/data/in\\icudt64l.dat',
+      icu_endianness: 'l',
+      icu_gyp_path: 'tools/icu/icu-generic.gyp',
+      icu_locales: 'en,root',
+      icu_path: 'deps/icu-small',
+      icu_small: true,
+      icu_ver_major: '64',
+      is_debug: 0,
+      napi_build_version: '4',
+      nasm_version: '2.14',
+      node_byteorder: 'little',
+      node_code_cache: 'yes',
+      node_debug_lib: false,
+      node_enable_d8: false,
+      node_install_npm: true,
+      node_module_version: 72,
+      node_no_browser_globals: false,
+      node_prefix: '/usr/local',
+      node_release_urlbase: 'https://nodejs.org/download/release/',
+      node_report: true,
+      node_shared: false,
+      node_shared_cares: false,
+      node_shared_http_parser: false,
+      node_shared_libuv: false,
+      node_shared_nghttp2: false,
+      node_shared_openssl: false,
+      node_shared_zlib: false,
+      node_tag: '',
+      node_target_type: 'executable',
+      node_use_bundled_v8: true,
+      node_use_dtrace: false,
+      node_use_etw: true,
+      node_use_large_pages: false,
+      node_use_large_pages_script_lld: false,
+      node_use_node_snapshot: true,
+      node_use_openssl: true,
+      node_use_v8_platform: true,
+      node_with_ltcg: true,
+      node_without_node_options: false,
+      openssl_fips: '',
+      openssl_is_fips: false,
+      shlib_suffix: 'so.72',
+      target_arch: 'x64',
+      v8_enable_gdbjit: 0,
+      v8_enable_i18n_support: 1,
+      v8_enable_inspector: 1,
+      v8_no_strict_aliasing: 1,
+      v8_optimized_debug: 1,
+      v8_promise_internal_field_count: 1,
+      v8_random_seed: 0,
+      v8_trace_maps: 0,
+      v8_use_siphash: 1,
+      v8_use_snapshot: 1,
+      want_separate_host_toolset: 0
+    }
+  },
+  abort: [Function: abort],
+  umask: [Function: umask],
+  chdir: [Function: chdir],
+  cwd: [Function: cwd],
+  _debugProcess: [Function: _debugProcess],
+  _debugEnd: [Function: _debugEnd],
+  _startProfilerIdleNotifier: [Function: _startProfilerIdleNotifier],
+  _stopProfilerIdleNotifier: [Function: _stopProfilerIdleNotifier],
+  dlopen: [Function: dlopen],
+  uptime: [Function: uptime],
+  _getActiveRequests: [Function: _getActiveRequests],
+  _getActiveHandles: [Function: _getActiveHandles],
+  reallyExit: [Function: reallyExit],
+  _kill: [Function: _kill],
+  hrtime: [Function: hrtime] { bigint: [Function: hrtimeBigInt] },
+  cpuUsage: [Function: cpuUsage],
+  resourceUsage: [Function: resourceUsage],
+  memoryUsage: [Function: memoryUsage],
+  kill: [Function: kill],
+  exit: [Function: exit],
+  stdout: [Getter],
+  stderr: [Getter],
+  stdin: [Getter],
+  openStdin: [Function],
+  allowedNodeEnvironmentFlags: [Getter/Setter],
+  assert: [Function: deprecated],
+  features: {
+    inspector: true,
+    debug: false,
+    uv: true,
+    ipv6: true,
+    tls_alpn: true,
+    tls_sni: true,
+    tls_ocsp: true,
+    tls: true,
+    cached_builtins: true
+  },
+  _fatalException: [Function],
+  setUncaughtExceptionCaptureCallback: [Function: setUncaughtExceptionCaptureCallback],
+  hasUncaughtExceptionCaptureCallback: [Function: hasUncaughtExceptionCaptureCallback],
+  emitWarning: [Function: emitWarning],
+  nextTick: [Function: nextTick],
+  _tickCallback: [Function: runNextTicks],
+  env: {
+    ALLUSERSPROFILE: 'C:\\ProgramData',
+    APPDATA: 'C:\\Users\\ibmtech\\AppData\\Roaming',
+    ChocolateyInstall: 'C:\\ProgramData\\chocolatey',
+    ChocolateyLastPathUpdate: '五 十二月 14 14:23:01 2018',
+    COLORTERM: 'truecolor',
+    CommonProgramFiles: 'C:\\Program Files\\Common Files',
+    'CommonProgramFiles(x86)': 'C:\\Program Files (x86)\\Common Files',
+    CommonProgramW6432: 'C:\\Program Files\\Common Files',
+    COMPUTERNAME: 'IBMTECH-PC',
+    ComSpec: 'C:\\Windows\\system32\\cmd.exe',
+    FLUTTER_STORAGE_BASE_URL: 'https://storage.flutter-io.cn',
+    FP_NO_HOST_CHECK: 'NO',
+    HOMEDRIVE: 'C:',
+    HOMEPATH: '\\Users\\ibmtech',
+    INIT_CWD: 'D:\\code\\es6-learn',
+    LANG: 'zh_CN.UTF-8',
+    LOCALAPPDATA: 'C:\\Users\\ibmtech\\AppData\\Local',
+    LOGONSERVER: '\\\\IBMTECH-PC',
+    NODE: 'C:\\Program Files\\nodejs\\node.exe',
+    npm_config_argv: '{"remain":[],"cooked":["run","babel"],"original":["babel"]}',
+    npm_config_bin_links: 'true',
+    npm_config_cache: 'C:\\cache',
+    npm_config_ignore_optional: '',
+    npm_config_ignore_scripts: '',
+    npm_config_init_license: 'MIT',
+    npm_config_init_version: '1.0.0',
+    npm_config_prefix: 'C:\\npm',
+    npm_config_registry: 'https://registry.yarnpkg.com',
+    npm_config_save_prefix: '^',
+    npm_config_strict_ssl: 'true',
+    npm_config_user_agent: 'yarn/1.12.3 npm/? node/v12.9.1 win32 x64',
+    npm_config_version_commit_hooks: 'true',
+    npm_config_version_git_message: 'v%s',
+    npm_config_version_git_sign: '',
+    npm_config_version_git_tag: 'true',
+    npm_config_version_tag_prefix: 'v',
+    npm_execpath: 'C:\\npm\\node_modules\\yarn\\bin\\yarn.js',
+    npm_lifecycle_event: 'babel',
+    npm_lifecycle_script: 'npx babel src --out-dir lib',
+    npm_node_execpath: 'C:\\Program Files\\nodejs\\node.exe',
+    npm_package_bugs_url: 'https://github.com/feigehenmang/es6-learn/issues',
+    npm_package_dependencies_core_js: '3',
+    npm_package_dependencies__babel_polyfill: '^7.6.0',
+    npm_package_description: 'es6-learn',
+    npm_package_devDependencies__babel_cli: '^7.6.4',
+    npm_package_devDependencies__babel_core: '^7.6.4',
+    npm_package_devDependencies__babel_plugin_transform_arrow_functions: '^7.2.0',
+    npm_package_devDependencies__babel_preset_env: '^7.6.3',
+    npm_package_homepage: 'https://github.com/feigehenmang/es6-learn#readme',
+    npm_package_license: 'ISC',
+    npm_package_main: 'index.js',
+    npm_package_name: 'es6-learn',
+    npm_package_readmeFilename: 'README.md',
+    npm_package_repository_type: 'git',
+    npm_package_repository_url: 'git+https://github.com/feigehenmang/es6-learn.git',
+    npm_package_scripts_babel: 'npx babel src --out-dir lib',
+    npm_package_scripts_postpublish: 'git push',
+    npm_package_scripts_prepublish: 'git add .',
+    npm_package_scripts_publish: 'git commit',
+    npm_package_scripts_start: '',
+    npm_package_version: '1.0.0',
+    NUMBER_OF_PROCESSORS: '4',
+    OS: 'Windows_NT',
+    Path: 'D:\\code\\es6-learn\\node_modules\\.bin;C:\\Users\\ibmtech\\AppData\\Local\\Temp\\yarn--1570761924435-0.5218438115712303;D:\\code\\es6-learn\\node_modules\\.bin;C:\\Users\\ibmtech\\AppData\\Local\\Yarn\\Data\\link\\node_modules\\.bin;D:\\code\\es6-learn\\node_modules\\.bin;C:\\Users\\ibmtech\\AppData\\Local\\Yarn\\Data\\link\\node_modules\\.bin;C:\\npm\\bin;C:\\Program Files\\libexec\\lib\\node_modules\\npm\\bin\\node-gyp-bin;C:\\Program Files\\lib\\node_modules\\npm\\bin\\node-gyp-bin;C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\node-gyp-bin;C:\\Windows\\System32;c:\\windows\\system32\\WindowsPowershell\\v1.0;C:\\npm;C:\\Microsoft VS Code\\bin;D:\\Microsoft VS Code\\bin;C:\\Users\\ibmtech\\AppData\\Local\\Turbo\\Cmd\\;C:\\Users\\ibmtech\\AppData\\Roaming\\npm;C:\\Program Files\\nodejs',
+    PATHEXT: '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC',
+    PROCESSOR_ARCHITECTURE: 'AMD64',
+    PROCESSOR_IDENTIFIER: 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel',
+    PROCESSOR_LEVEL: '6',
+    PROCESSOR_REVISION: '3a09',
+    ProgramData: 'C:\\ProgramData',
+    ProgramFiles: 'C:\\Program Files',
+    'ProgramFiles(x86)': 'C:\\Program Files (x86)',
+    ProgramW6432: 'C:\\Program Files',
+    PROMPT: '$P$G',
+    PSModulePath: 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;C:\\Program Files\\Intel\\Wired Networking\\',
+    PUBLIC: 'C:\\Users\\Public',
+    PUB_HOSTED_URL: 'PUB_HOSTED_URL',
+    SESSIONNAME: 'Console',
+    SystemDrive: 'C:',
+    SystemRoot: 'C:\\Windows',
+    TEMP: 'C:\\Users\\ibmtech\\AppData\\Local\\Temp',
+    TERM_PROGRAM: 'vscode',
+    TERM_PROGRAM_VERSION: '1.39.0',
+    TMP: 'C:\\Users\\ibmtech\\AppData\\Local\\Temp',
+    USERDOMAIN: 'ibmtech-PC',
+    USERNAME: 'ibmtech',
+    USERPROFILE: 'C:\\Users\\ibmtech',
+    windir: 'C:\\Windows',
+    windows_tracing_flags: '3',
+    windows_tracing_logfile: 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log',
+    YARN_WRAP_OUTPUT: 'false'
+  },
+  title: '  - yarn  babel',
+  argv: [
+    'C:\\Program Files\\nodejs\\node.exe',
+    'D:\\code\\es6-learn\\node_modules\\@babel\\cli\\bin\\babel.js',
+    'src',
+    '--out-dir',
+    'lib'
+  ],
+  execArgv: [],
+  pid: 9880,
+  ppid: 4376,
+  execPath: 'C:\\Program Files\\nodejs\\node.exe',
+  debugPort: 9229,
+  argv0: 'node',
+  _preload_modules: [],
+  mainModule: Module {
+    id: '.',
+    path: 'D:\\code\\es6-learn\\node_modules\\@babel\\cli\\bin',
+    exports: {},
+    parent: null,
+    filename: 'D:\\code\\es6-learn\\node_modules\\@babel\\cli\\bin\\babel.js',
+    loaded: true,
+    children: [ [Module] ],
+    paths: [
+      'D:\\code\\es6-learn\\node_modules\\@babel\\cli\\bin\\node_modules',
+      'D:\\code\\es6-learn\\node_modules\\@babel\\cli\\node_modules',
+      'D:\\code\\es6-learn\\node_modules\\@babel\\node_modules',
+      'D:\\code\\es6-learn\\node_modules',
+      'D:\\code\\node_modules',
+      'D:\\node_modules'
+    ]
+  }
+}
+{
+  version: '7.6.4',
+  cache: [Function: cacheFn] {
+    forever: [Function],
+    never: [Function],
+    using: [Function],
+    invalidate: [Function]
+  },
+  env: [Function: env],
+  async: [Function: async],
+  caller: [Function: caller],
+  assertVersion: [Function: assertVersion],
+  tokTypes: undefined
+}
+
+WARNING: We noticed you're using the `useBuiltIns` option without declaring a core-js version. Currently, we assume version 2.x when no version is passed. Since this default version will likely change in future versions of Babel, we recommend explicitly setting the core-js
+version you are using via the `corejs` option.
+
+You should also be sure that the version you pass to the `corejs` option matches the version specified in your `package.json`'s `dependencies` section. If it doesn't, you need to run one of the following commands:
+
+  npm install --save core-js@2    npm install --save core-js@3
+  yarn add core-js@2              yarn add core-js@3
+
+Successfully compiled 1 file with Babel.
+Done in 1.28s.
+
+D:\code\es6-learn>

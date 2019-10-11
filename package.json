@@ -7,7 +7,8 @@
     "start": "",
     "prepublish": "git add .",
     "publish": "git commit",
-    "postpublish": "git push"
+    "postpublish": "git push",
+    "babel": "npx babel src --out-dir lib"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,16 @@
   "bugs": {
     "url": "https://github.com/feigehenmang/es6-learn/issues"
   },
-  "homepage": "https://github.com/feigehenmang/es6-learn#readme"
+  "homepage": "https://github.com/feigehenmang/es6-learn#readme",
+  "dependencies": {
+    "@babel/polyfill": "^7.6.0",
+    "core-js": "3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-transform-arrow-functions": "^7.2.0",
+    "@babel/preset-env": "^7.6.3",
+    "cross-env": "^6.0.3"
+  }
 }

@@ -1,0 +1,1 @@
+typeof undeclared_variable; // typeof 一个未声明变量不会报错, 但是在声明之前typeof一个用let或const声明的会报错
