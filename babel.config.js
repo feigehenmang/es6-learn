@@ -19,7 +19,7 @@ const plugins = [
 console.log(process.env.env)
 
 module.exports = function(api){
-    console.log(api);
+    // console.log(api);
     api.cache(true);
     return {
         presets,

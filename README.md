@@ -166,6 +166,25 @@ es6-learn
         - 如果通过 `${}` 嵌入的表达式或变量函数最终的执行结果不是字符串, 那会调用最终执行结果身上的`toString`方法
     - 标签模板, 如果模板字符串紧跟在一个函数名称后面, 该函数将被调用来处理这个模板字符串alert\`123\` === alert(123)
         - 如果模板字符串中含有变量, 就不仅仅是简单调用了, 如下: 
+        ```js
+        let a = 5;
+        let b = 10;
+
+        tag`Hello ${ a + b } world ${ a * b }`;
+        // 等同于
+        tag(['Hello ', ' world ', ''], 15, 50);
+        // ----
+        function tag(stringArr, value1, value2){
+        // ...
+        }
+
+        // 等同于`
+
+        function tag(stringArr, ...values){
+        // ...
+        }
+        ```
+        - 可以用于过来HTML字符串, 多语言转换
 ---
 ```sh
 git publish -- -m 'commit content' # 提交代码
